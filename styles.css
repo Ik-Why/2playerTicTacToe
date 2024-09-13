@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+body {
+    background-color: bisque;
+}
+
+.title {
+    font-size: 40px;
+    font-family: 'Quicksand';
+    font-weight: 2000;
+    color: #222222;
+
+    margin: 0px;
+    margin-top: 30px;
+}
+.title2 {
+    font-size: 70px;
+    font-family: 'Quicksand';
+    font-weight: 1000;
+    color: #222222;
+
+    margin: 0px;
+}
+
+/*Turn CSS*/
+.turn {
+    /*layout*/
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+    /*font*/
+    font-size: 30px;
+    font-family: 'Quicksand';
+    font-weight: 1000;
+    color: white;
+
+    /*border&color*/
+    border-radius: 10px;
+    background-color: #505050;
+}
+/*End Of Turn CSS*/
+
+/*TicTacToeBoard CSS*/
+.tictactoeboard {
+    /*layout*/
+    max-width: fit-content;
+    margin-top: 15px;
+    margin-bottom: auto;
+    padding: 10px;
+    padding-bottom: 9px;
+
+    /*border&color*/
+    background-color: cadetblue;
+    border-radius: 15px;
+}
+.top3 button, .center3 button, .bottom3 button {
+    /*layout*/
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    margin-left: 3.5px;
+    margin-right: 3.5px;
+    
+    /*font*/
+    font-size: 40px;
+    font-family: 'Quicksand';
+    font-weight: 1000;
+    color: white;
+
+    /*border&color*/
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: rgb(80, 80, 80);  
+    position:static; 
+}
+.top3 button:hover, .center3 button:hover, .bottom3 button:hover {
+    /*color*/
+    background-color: #ababab;
+
+    /*extra*/
+    cursor: pointer;
+}
+.top3 button:disabled, .center3 button:disabled, .bottom3 button:disabled {
+    /*color*/
+    background-color: rgb(80, 80, 80);
+
+    /*extra*/
+    cursor:default;
+}
+/*End Of TicTacToeBoard CSS*/
+
+.reset {
+    /*layout*/
+    width: 350px;
+    padding: 5px;
+    margin-top: 20px;
+
+    /*font*/
+    font-size: 30px;
+    font-family: 'Quicksand';
+    font-weight: 1000;
+    color: white;
+
+    /*border&color*/
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: #ff5454;
+}
+
+.reset:hover {
+    /*color*/
+    background-color: #ff6868;
+
+    /*extra*/
+    cursor: pointer;
+}
